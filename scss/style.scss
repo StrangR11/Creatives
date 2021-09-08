@@ -7,22 +7,23 @@ html {
 	}
 }
 .main {
-
     // .main__container
 
     &__container {
+        width: 100%;
         height: 100%;
-        width: 1600px;
         max-width: 100%;
+        margin: 0 auto;
     }
 }
 
 .home {
     &__container {
         height: 100vh;
-        width: 1600px;
         max-width: 100%;
-        background: no-repeat url("../img/bgimage.png");
+        background: no-repeat center center url("../img/bgimage.png");
+        background-size: cover;
+        background-attachment: fixed;
     }
     // .home__section
 
@@ -133,14 +134,13 @@ html {
     }
 }
 .news {
-    
     // .news__first-block
 
     &__first-block {
-        width: 1600px;
+        background-color: #11749e;
+        width: 100%;
         max-width: 100%;
         height: 100%;
-        background-color: #11749e;
         position: relative;
     }
 
@@ -232,7 +232,7 @@ html {
     // .news__second-block
 
     &__second-block {
-        width: 1600px;
+        width: 100%;
         max-width: 100%;
         display: flex;
         align-items: center;
@@ -471,7 +471,6 @@ html {
    
 }
 .quick-action {
-    width: 1600px;
     max-width: 100%;
     height: 100%;
     background-color: #11749e;
@@ -519,9 +518,10 @@ html {
 }
 .feauture {
     height: 100vh;
-    width: 1600px;
     max-width: 100%;
-    background: no-repeat url("../img/rectangle_6_copy_5_2161.png");
+    background: no-repeat center center url("../img/rectangle_6_copy_5_2161.png");
+    background-size: cover;
+    background-attachment: fixed;
     position: relative;
     // .feauture__info
 
@@ -647,7 +647,6 @@ html {
     }
 }
 .team {
-    width: 1600px;
     max-width: 100%;
     position: relative;
 
@@ -821,11 +820,13 @@ html {
     }
 }
 .form {
-    width: 1600px;
     max-width: 100%;
-    background: no-repeat url("../img/layer_97_2249.png");
-    position: relative;
-
+    background: no-repeat center center url("../img/layer_97_2249.png");
+    background-size: cover;
+    background-attachment: fixed;
+    &__container {
+        position: relative;
+    }
     // .form__title
 
     &__title {
@@ -963,7 +964,6 @@ html {
 
 .maps {
     margin: 0 auto;
-    width: 1600px;
     max-width: 100%;
     height: 332px;
     background-color: #2a2a2a;
