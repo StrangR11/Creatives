@@ -24,6 +24,11 @@ html {
         background: no-repeat center center url("../img/bgimage.png");
         background-size: cover;
         background-attachment: fixed;
+        @media (max-width: 786px){
+            background: no-repeat  url("../img/bgimage.png");
+            background-size: auto;
+            background-attachment: none;
+        }
     }
     // .home__section
 
@@ -523,6 +528,11 @@ html {
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    @media (max-width: 768px){
+        background: no-repeat center url("../img/rectangle_6_copy_5_2161.png");
+        background-size: auto;
+        background-attachment: none;
+    }
     // .feauture__info
 
     &__info {
@@ -824,6 +834,11 @@ html {
     background: no-repeat center center url("../img/layer_97_2249.png");
     background-size: cover;
     background-attachment: fixed;
+    @media (max-width: 768px){
+        background: no-repeat center url("../img/layer_97_2249.png");
+        background-size: auto;
+        background-attachment: none;
+    }
     &__container {
         position: relative;
     }

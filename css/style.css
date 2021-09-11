@@ -18,6 +18,14 @@
   background-attachment: fixed;
 }
 
+@media (max-width: 786px) {
+  .home__container {
+    background: no-repeat url("../img/bgimage.png");
+    background-size: auto;
+    background-attachment: none;
+  }
+}
+
 .home__section {
   margin: 0 auto;
   width: 1170px;
@@ -577,6 +585,14 @@
   position: relative;
 }
 
+@media (max-width: 768px) {
+  .feauture {
+    background: no-repeat center url("../img/rectangle_6_copy_5_2161.png");
+    background-size: auto;
+    background-attachment: none;
+  }
+}
+
 .feauture__info {
   position: absolute;
   top: 50%;
@@ -952,6 +968,14 @@
   background: no-repeat center center url("../img/layer_97_2249.png");
   background-size: cover;
   background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+  .form {
+    background: no-repeat center url("../img/layer_97_2249.png");
+    background-size: auto;
+    background-attachment: none;
+  }
 }
 
 .form__container {
